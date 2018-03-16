@@ -1,8 +1,8 @@
 {
   "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "description": "Izzy Wasburn's Portfolio Site",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Brendan Rielly <brendanrielly@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.232",
     "gatsby-cli": "^1.1.46",
@@ -11,7 +11,7 @@
     "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "gatsby"
+    "Izzy Washburn"
   ],
   "license": "MIT",
   "scripts": {
