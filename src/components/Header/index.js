@@ -23,7 +23,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          Izzy Washburn
         </Link>
       </h1>
     </div>
