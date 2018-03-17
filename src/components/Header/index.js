@@ -1,32 +1,42 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import logo from '../../images/logo.svg'
 
 const Header = () => (
   <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
+    className="header-container"
   >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Izzy Washburn
-        </Link>
-      </h1>
+    <div className="header-logo">
+      <img src={logo} alt="Izzy Washburn's Logo" />
     </div>
+    <nav>
+    <ul className="header-nav">
+    <li><Link
+          to="/"        
+        >
+          Gallery
+        </Link>
+    </li>
+    <li><Link
+          to="/about/"
+        >
+          About
+        </Link>
+    </li>
+    <li><Link
+          to="/contact/"
+        >
+          Contact
+        </Link>
+    </li>
+    <li><Link
+          to="/shop/"
+        >
+          Shop
+        </Link>
+    </li>
+        </ul>
+    </nav>
   </div>
 )
 
