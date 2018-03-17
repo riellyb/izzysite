@@ -723,7 +723,7 @@ body {
 }
 
 .header-container {
-  background: #ea1c35;
+  background: #27489e;
 }
 .header-logo {
     width: 20%;
@@ -742,11 +742,17 @@ body {
     padding: 20px;
 }
 
+.header-nav li:hover {
+}
+
 .header-nav a {
     text-decoration: none;
     color: white;
     font-size: 30px;
     font-weight: bold;
+    transition: all 400ms ease-in-out;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
 }
 
 .header-nav a:active,
