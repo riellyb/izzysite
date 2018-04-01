@@ -3,8 +3,9 @@ import Link from 'gatsby-link'
 
 const AboutPage = () => (
   <div className="slide-inner">
-    <h1>About me</h1>
-    <p>This is my about me page</p>
+    <h1>about</h1>
+    <p>izzy Washburn is a designer and illustrator living and working in Salt Lake City. She is currently attending the University of Utah design program.</p>
+    <p>Her hobbies include eating, baking, watching TV, and bursting into song. She also enjoys birds, puns, and dogs.</p>
   </div>
 )
 

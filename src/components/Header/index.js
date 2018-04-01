@@ -52,7 +52,6 @@ class Header extends React.Component {
           overlayClassName='slide-page-overlay'
           isOpen={ this.state.isPaneOpen }
           from='left'
-          width='50%'
           onRequestClose={ () => {
               this.setState({ isPaneOpen: false });
           } }
