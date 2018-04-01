@@ -8,7 +8,8 @@
     "gatsby-cli": "^1.1.46",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-react-helmet": "^2.0.7",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-sliding-pane": "^2.0.2"
   },
   "keywords": [
     "Izzy Washburn"

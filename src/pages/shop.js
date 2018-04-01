@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const ShopPage = () => (
-  <div>
-    <h1>Buy My shit Ma Fuckah</h1>
+  <div className="main">
+    <h1>Shop Page</h1>
   </div>
 )
 
