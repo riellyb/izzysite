@@ -12,11 +12,23 @@ class Header extends React.Component {
     super(props);
     this.state = {
         isPaneOpen: false,
-        about: true
+        paneContent: 'about'
     };
   }
   componentDidMount() {
     Modal.setAppElement(this.el);
+  }
+  panelContentSwitch() {
+    switch (this.state.paneContent) {
+      case 'about':
+        return <AboutPage />; 
+      case 'contact':
+        return <ContactPage />;
+      case 'test':
+        return 'Testing';
+      default:
+       return <AboutPage />; 
+    }
   }
   render () {
       return <div
@@ -27,21 +39,15 @@ class Header extends React.Component {
       </div>
       <nav>
       <ul className="header-nav">
-      <li><Link
-            to="/" onClick={() => this.setState({ isPaneOpen: false })}        
-          >
+      <li><Link to="/" onClick={() => this.setState({ isPaneOpen: false })} >
             work
           </Link>
       </li>
-      <li><a
-            onClick={() => this.setState({ isPaneOpen: true, about: true })}
-          >
+      <li><a onClick={() => this.setState({ isPaneOpen: true, paneContent: 'about' })} >
             about
           </a>
       </li>
-      <li><a
-            onClick={() => this.setState({ isPaneOpen: true, about: false })}
-          >
+      <li><a onClick={() => this.setState({ isPaneOpen: true, paneContent: 'contact' })} >
             contact
           </a>
       </li>
@@ -59,7 +65,7 @@ class Header extends React.Component {
 
           } }>
 
-          <div>{this.state.about ? <AboutPage /> : <ContactPage />}</div>
+          <div>{this.panelContentSwitch()}</div>
       </SlidingPane>
     </div>
   }

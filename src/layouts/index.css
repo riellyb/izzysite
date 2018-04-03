@@ -60,11 +60,14 @@ template {
 a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
+    color: #777;
+    text-decoration: none;
 }
 
 a:active,
 a:hover {
     outline-width: 0;
+    color: #000;
 }
 
 abbr[title] {
