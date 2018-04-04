@@ -845,10 +845,6 @@ body {
     -moz-flex-direction: column;
     margin-right: 30px;
     width: calc(25% - 30px);
-    justify-content: center;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    -ms-justify-content: center;
 }
 .work-item {
     text-align: center;
