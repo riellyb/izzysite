@@ -66,6 +66,26 @@ const IndexPage = () => (
 				<img src="http://via.placeholder.com/350x800" />
 			</div>
     	</div>
+    	<div className="work-row">
+			<div className="work-item">
+				<img src="http://via.placeholder.com/350x700" />
+			</div>
+			<div className="work-item">
+				<img src="http://via.placeholder.com/350x250" />
+			</div>
+			<div className="work-item">
+				<img src="http://via.placeholder.com/350x500" />
+			</div>
+			<div className="work-item">
+				<img src="http://via.placeholder.com/350x450" />
+			</div>
+			<div className="work-item">
+				<img src="http://via.placeholder.com/350x600" />
+			</div>
+			<div className="work-item">
+				<img src="http://via.placeholder.com/350x800" />
+			</div>
+    	</div>
 
     </div>
   </div>
