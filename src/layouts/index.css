@@ -62,6 +62,7 @@ a {
     -webkit-text-decoration-skip: objects;
     color: #777;
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:active,
