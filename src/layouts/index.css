@@ -754,6 +754,7 @@ body {
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
     width: 300px;
+    min-width: 300px;
     z-index: 5;
 }
 
@@ -766,7 +767,7 @@ body {
 }
 
 .header-logo {
-    width: 200px;
+    width: 150px;
     margin: 0 auto;
     padding: 100px 0;
 }
@@ -778,7 +779,7 @@ body {
 }
 
 .header-nav li {
-    padding: 20px 20% 20px 100px;
+    padding: 20px 75px 20px 100px;
     text-align: right;
 }
 
@@ -800,7 +801,8 @@ body {
 }
 
 .slide-pane {
-    width: 50%!important;
+    width: 70%!important;
+    max-width: 900px;
 }
 
 .slide-pane__overlay {
@@ -840,24 +842,57 @@ body {
     display: flex;
     display: -webkit-flex;
     display: -ms-flex;
-    flex-direction: column;
-    -ms-flex-direction: column;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    margin-right: 30px;
-    width: calc(25% - 30px);
+    flex-direction: row;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
 }
+
 .work-item {
     text-align: center;
+    width: calc(25% - 20px);
+    margin: 10px;
 }
 
+.work-item img {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1400px) {
+    .slide-pane {
+        width: 80%!important;
+    }
+}
 
 @media only screen and (max-width: 1200px) {
-    .slide-pane {
-        width: 70%!important;
+
+    .work-item {
+        width: calc(33.3333% - 20px);
     }
-    .work-row {
-        width: calc(50% - 30px);
+}
+
+@media only screen and (max-width: 1000px) {
+    .work-item {
+        width: calc(50% - 20px);
+    }
+    .slide-pane {
+        width: 90%!important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .slide-pane {
+        width: 100%!important;
+        margin-right: 0;
     }
 }
 
@@ -884,11 +919,8 @@ body {
     }
     .slide-pane__overlay {
         left: 0;
-        top: 370px;
-    }
-    .slide-pane {
-        width: 100%!important;
-        margin-right: 0;
+        top: 0;
+        z-index: 5;
     }
     .slide-pane__content {
         width: 100%!important;
@@ -896,12 +928,27 @@ body {
     .main {
         padding: 60px 20px;
     }
-
 }
 
 @media only screen and (max-width: 600px) {
-    .work-row {
-        width: calc(100% - 30px);
-        margin-right: 0;
+    .work-item {
+        width: calc(100% - 20px);
+    }
+    .header-nav {
+        margin-bottom: 0;
+    }
+    .header-nav li {
+        padding: 10px;
+        margin-bottom: 0;
+    }
+    .header-logo {
+        padding: 20px 0;
+        width: 100px;
+    }
+    .header-logo img {
+        margin-bottom: 0;
+    }
+    .slide-pane__content {
+        padding: 10px 20px;
     }
 }

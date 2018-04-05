@@ -4,8 +4,8 @@ import logo from '../../images/logo.svg'
 import Modal from 'react-modal'
 import SlidingPane from 'react-sliding-pane'
 import 'react-sliding-pane/dist/react-sliding-pane.css'
-import AboutPage from '../../components/Panels/about'
-import ContactPage from '../../components/Panels/contact'
+import AboutPage from '../../pages/about'
+import ContactPage from '../../pages/contact'
 
 class Header extends React.Component {
   constructor(props) {
@@ -33,7 +33,7 @@ class Header extends React.Component {
   render () {
       return <div className="header-container" ref={ref => this.el = ref} >
       <div className="header-logo">
-        <img src={logo} alt="Izzy Washburn's Logo" />
+        <Link to="/" onClick={() => this.setState({ isPaneOpen: false })} ><img src={logo} alt="Izzy Washburn's Logo" /></Link>
       </div>
       <nav>
       <ul className="header-nav">
