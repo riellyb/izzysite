@@ -8,7 +8,8 @@ import image5 from '../../images/page9-5.jpg'
 
 const Page9 = () => (
   <div className="slide-inner">
-    <h1>Pluralsight Brand Book</h1>
+    <h1>pluralsight brand book:</h1>
+    <p>Brand guidelines for conceptual Pluralsight identity. </p>
 	<img src={image1} />
 	<img src={image2} />
 	<img src={image3} />

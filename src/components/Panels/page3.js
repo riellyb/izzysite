@@ -6,8 +6,8 @@ import image3 from '../../images/page3-3.jpg'
 
 const Page3 = () => (
   <div className="slide-inner">
-    <h1>Red Vines</h1>
-    <p></p>
+    <h1>red vines:</h1>
+    <p>Print advertisements promoting the Red Vines 4 lb. tub.</p>
 	<img src={image1} />
 	<img src={image2} />
 	<img src={image3} />

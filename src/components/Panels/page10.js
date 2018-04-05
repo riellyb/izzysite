@@ -6,7 +6,8 @@ import image3 from '../../images/page10-3.jpg'
 
 const Page10 = () => (
   <div className="slide-inner">
-    <h1>Toothpaste</h1>
+    <h1>bleach toothpaste:</h1>
+    <p>Toothpaste packaging for “Bleach,” a conceptual toothpaste brand. </p>
 	<img src={image1} />
 	<img src={image2} />
 	<img src={image3} />

@@ -9,7 +9,9 @@ import image6 from '../../images/page4-6.jpg'
 
 const Page4 = () => (
   <div className="slide-inner">
-    <h1>Donuts</h1>
+    <h1>donuts:</h1>
+    <p>Accordion booklet illustrating different words with flat illustration
+over the same image of a donut. </p>
 	<img src={image1} />
 	<img src={image2} />
 	<img src={image3} />

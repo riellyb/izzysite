@@ -8,7 +8,8 @@ import image5 from '../../images/page12-5.jpg'
 
 const Page12 = () => (
   <div className="slide-inner">
-    <h1>Pluralsight Rebrand</h1>
+    <h1>pluralsight rebrand:</h1>
+    <p>Pluralsight is an online learning platform focused on fields in technology and development. They offer various tutorials and other services for learning coding, data analysis, creative software, and other tech-related fields. </p>
 	<img src={image1} />
 	<img src={image2} />
 	<img src={image3} />

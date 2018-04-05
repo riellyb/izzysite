@@ -11,8 +11,8 @@ import image8 from '../../images/page2-8.jpg'
 
 const Page2 = () => (
   <div className="slide-inner">
-    <h1>Hot Wheels</h1>
-    <p></p>
+    <h1>hot wheels:</h1>
+    <p>A marketing refresh for Hot Wheels focused on imaginitive play. Materials include print advertisements, a product line, and branded social media content. </p>
 	<img src={image1} />
 	<img src={image2} />
 	<img src={image3} />

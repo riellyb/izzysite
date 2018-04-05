@@ -12,7 +12,8 @@ import image9 from '../../images/page5-9.jpg'
 
 const Page5 = () => (
   <div className="slide-inner">
-    <h1>Natural History Museum</h1>
+    <h1>museum guide:</h1>
+    <p>Detailed map and guide booklet for the Natural History Museum of Utah.</p>
 	<img src={image1} />
 	<img src={image2} />
 	<img src={image3} />

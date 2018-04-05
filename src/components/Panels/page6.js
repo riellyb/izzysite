@@ -12,7 +12,9 @@ import image9 from '../../images/page6-9.jpg'
 
 const Page6 = () => (
   <div className="slide-inner">
-    <h1>Forbidden Love</h1>
+    <h1>forbidden love:</h1>
+    <p>A comic zine about a unicorn that falls in love with a unicorn-shaped
+balloon animal.</p>
 	<img src={image1} />
 	<img src={image2} />
 	<img src={image3} />

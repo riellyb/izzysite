@@ -9,7 +9,8 @@ import image6 from '../../images/page8-6.jpg'
 
 const Page8 = () => (
   <div className="slide-inner">
-    <h1>Pluralsight Case Study</h1>
+    <h1>pluralsight case study:</h1>
+    <p>The rebranding process for Pluralsight began with a strategy and an established creative direction. Three directions were presented.</p>
 	<img src={image1} />
 	<img src={image2} />
 	<img src={image3} />

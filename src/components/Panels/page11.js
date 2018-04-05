@@ -10,7 +10,8 @@ import image7 from '../../images/page11-7.jpg'
 
 const Page11 = () => (
   <div className="slide-inner">
-    <h1>Wayfinding</h1>
+    <h1>wayfinding/placemaking</h1>
+    <p>A wayfinding and identity system for the Art and Art History building at the University of Utah. The shapes and use of transparency were inspired by the way that shafts of light fold over the different surfaces of the brutalist building. </p>
 	<img src={image1} />
 	<img src={image2} />
 	<img src={image3} />

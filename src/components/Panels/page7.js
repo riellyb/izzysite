@@ -9,7 +9,8 @@ import image6 from '../../images/page7-6.jpg'
 
 const Page7 = () => (
   <div className="slide-inner">
-    <h1>Fringe</h1>
+    <h1>fringe:</h1>
+    <p>The Great Salt Lake Fringe Festival is a theater festival that takes place in different venues across Salt Lake City. This promotional poster may also be used to reference information about different performances. </p>
 	<img src={image1} />
 	<img src={image2} />
 	<img src={image3} />
