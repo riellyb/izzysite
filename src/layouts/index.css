@@ -916,6 +916,9 @@ body {
     .header-container {
         width: 100%;
     }
+    .header-nav {
+        margin-bottom: 0;
+    }
     .header-nav li {
         display: inline-block;
         width: 33.3333%;
@@ -925,6 +928,9 @@ body {
     .header-logo {
         width: 130px;
         padding: 40px 0;
+    }
+    .header-logo img {
+        margin-bottom: 0;
     }
     .slide-pane__overlay {
         left: 0;
@@ -943,9 +949,6 @@ body {
     .work-item {
         width: 100%;
         margin: 0 0 20px 0;
-    }
-    .header-nav {
-        margin-bottom: 0;
     }
     .header-nav li {
         padding: 10px 5px;
