@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const ContactPage = () => (
-  <div className="slide-inner">
+  <div className="slide-inner" style={{maxWidth: '350px'}}>
     <h1>contact</h1>
     <p><a href="mailto:iz.b.washburn@gmail.com">iz.b.washburn@gmail.com</a></p>
     <p><a href="https://www.instagram.com/izwashburn/">@izwashburn</a></p>
