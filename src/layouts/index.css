@@ -941,13 +941,14 @@ body {
 
 @media only screen and (max-width: 600px) {
     .work-item {
-        width: calc(100% - 20px);
+        width: 100%;
+        margin: 0 0 20px 0;
     }
     .header-nav {
         margin-bottom: 0;
     }
     .header-nav li {
-        padding: 10px;
+        padding: 10px 5px;
         margin-bottom: 0;
     }
     .header-logo {
