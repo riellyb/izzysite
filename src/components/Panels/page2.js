@@ -6,8 +6,8 @@ import image3 from '../../images/page2-3.jpg'
 import image4 from '../../images/page2-4.jpg'
 import image5 from '../../images/page2-5.jpg'
 import image6 from '../../images/page2-6.jpg'
-import image7 from '../../images/page2-7.jpg'
-import image8 from '../../images/page2-8.jpg'
+import image7 from '../../images/page2-8.jpg'
+import image8 from '../../images/page2-7.jpg'
 
 const Page2 = () => (
   <div className="slide-inner">
