@@ -33,7 +33,7 @@ class Header extends React.Component {
   render () {
       return <div className="header-container" ref={ref => this.el = ref} >
       <div className="header-logo">
-        <Link to="/" onClick={() => this.setState({ isPaneOpen: false })} ><img src={logo} alt="Izzy Washburn's Logo" /></Link>
+        <Link to="/" onClick={() => this.setState({ isPaneOpen: false })} ><img src={logo} alt="Izzy Rielly's Logo" /></Link>
       </div>
       <nav>
       <ul className="header-nav">

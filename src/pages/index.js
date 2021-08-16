@@ -72,7 +72,7 @@ class IndexPage extends React.Component {
   }
   render () {
   	return <div>
-	    <h1>izzy washburn. graphic designer.</h1>
+	    <h1>izzy rielly. graphic designer.</h1>
 	    <div className="work-container">
 	    	<div className="work-row">
 				<div className="work-item">

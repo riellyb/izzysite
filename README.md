@@ -1,4 +1,4 @@
-# Izzy Washburn's Portfolio
+# Izzy Rielly's Portfolio
 
 Portfolio site built with gatsby
 
