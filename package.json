@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Brendan Rielly <brendanrielly@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.232",
+    "gatsby": "^5.3.3",
     "gatsby-cli": "^1.1.46",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-favicon": "^2.1.1",
